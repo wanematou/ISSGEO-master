@@ -1,0 +1,1146 @@
+{
+	"common": {
+		"mode": {
+			"light": "Clair",
+			"dark": "Sombre",
+			"system": "Système"
+		},
+		"search": "Rechercher",
+		"no_results": "Aucun résultat trouvé",
+		"selectedItems": "{{count}} élément(s) sélectionné(s)",
+		"confirm": "Confirmer",
+		"startDate": "Date de début",
+		"select_field": "Selectionner un élément",
+		"cancel": "Annuler",
+		"hours": "Heures",
+		"image": "Image",
+		"deleting": "Suppression…",
+		"toast": {
+			"generalAlreadySubmitted": "Le formulaire général a déjà été soumis.",
+			"actionNotAllowed": "Action non autorisée",
+			"fillGeneralFirst": "Veuillez d’abord remplir le formulaire général.",
+			"noOrganizationFound": "Aucune organisation trouvée",
+			"warning": "Veuillez d’abord remplir le formulaire général.",
+			"tokenExpired": "Le jeton a expiré, veuillez vous reconnecter.",
+			"successAuthentication": "Authentification réussie ! Vous pouvez désormais soumettre le formulaire",
+			"error": {
+				"unexpected": {
+					"title": "Une erreur inattendue est survenue",
+					"description": "Une erreur inattendue est survenue, veuillez réessayer plus tard ou contacter le support si le problème persiste."
+				},
+				"default": {
+					"title": "Une erreur est survenue",
+					"description": "Une erreur est survenue, veuillez réessayer."
+				},
+				"notFound": {
+					"title": "Introuvable",
+					"description": "La ressource demandée est introuvable",
+					"resource": "{resource} introuvable"
+				},
+				"badRequest": {
+					"title": "Requête invalide",
+					"description": "La requête envoyée n’est pas valide ou des données obligatoires sont manquantes."
+				},
+				"generic": "L’opération a échoué.",
+				"imageRead": "Échec du traitement de l’image",
+				"imageReadDesc": "Le traitement de l’image a échoué, veuillez vérifier le format de votre image",
+				"load": "Échec du chargement des données",
+				"validation": {
+					"title": "Erreur de validation",
+					"description": "Veuillez vérifier les champs du formulaire puis réessayer."
+				},
+				"server": {
+					"title": "Erreur serveur",
+					"description": "Une erreur inattendue est survenue. Veuillez réessayer ou contacter le support si le problème persiste."
+				}
+			},
+			"success": {
+				"genericTitle": "Succès",
+				"genericUpdate": "Mise à jour effectuée avec succès",
+				"genericCreate": "Création effectuée avec succès"
+			},
+			"deleteAlert": {
+				"single": {
+					"title": "Supprimer l’élément",
+					"description": "Êtes-vous sûr de vouloir supprimer cet élément ? Cette action est irréversible."
+				},
+				"multiple": {
+					"title": "Supprimer les éléments sélectionnés",
+					"description": "Êtes-vous sûr de vouloir supprimer {{count}} élément(s) ? Cette action est irréversible."
+				}
+			}
+		},
+		"actions": "Actions",
+		"edit": "Modifier",
+		"delete": "Supprimer",
+		"fallbackText": "Entité",
+		"title": "Titre",
+		"description": "Description",
+		"submit": "Soumettre",
+		"all": "Tous",
+		"add": "Ajouter",
+		"columns": "Colonnes",
+		"noResult": "Aucun résultat",
+		"expand": "Développer",
+		"save": "Enregistrer",
+		"update": "Mettre à jour",
+		"updatedAt": "Mis à jour le",
+		"createdAt": "Créé le",
+		"last_update": "Dernière mise à jour",
+		"users": "Utilisateurs",
+		"name": "Nom",
+		"select": "Sélectionner",
+		"selectAll": "Tout sélectionner",
+		"clearAll": "Tout effacer",
+		"removeAll": "Tout retirer",
+		"searchSelectedItems": "Rechercher dans les éléments sélectionnés…",
+		"noResultsFound": "Aucun résultat trouvé",
+		"saving": "Enregistrement…",
+		"first": "Premier",
+		"last": "Dernier",
+		"previous": "Précédent",
+		"next": "Suivant",
+		"of": "sur",
+		"selected": "Sélectionné",
+		"loading": "Chargement",
+		"settings": "Paramètres",
+		"reset": "Réinitialiser",
+		"change": "Changer",
+		"upload": "Téléverser",
+		"table": {
+			"of": "sur",
+			"lines_per_page": "Ligne(s) par page",
+			"lines_to_all": "{{count}} ligne(s) au total",
+			"page": "Page"
+		},
+		"location": "Localisation",
+		"contract": "Contrat",
+		"profile": "Profil",
+		"logout": "Se déconnecter",
+		"starNumber": "Numéro de départ",
+		"message": "Message",
+		"email": "Email",
+		"role": "Rôle",
+		"password": "Mot de passe",
+		"user": "Utilisateur",
+		"maintainer": "Mainteneur",
+		"priceMin": "Prix Minimum",
+		"priceMax": "Prix Maximum",
+		"participants": "Participants",
+		"enrolled": "Enrollé",
+		"details": "Détails",
+		"price": "Price",
+		"Stage": "Stage",
+		"CDD": "Contrat à durée déterminée",
+		"CDI": "Contrat à durée indéterminée",
+		"Freelance": "Indépendant",
+		"monthly": "Mensuel",
+		"weekly": "Hebdomadaire",
+		"yearly": "Annuel",
+		"upload_image": "Charger une image",
+		"change_image": "Changer l'image",
+		"remove_image": "Supprimer l'image",
+		"showMore": "Voir plus",
+		"showLess": "Voir moins"
+	},
+	"footer": {
+		"brand": "ISSGEO",
+		"tagline": "Construire la technologie de demain. Recherche, innovation et excellente expérience utilisateur.",
+		"quickLinks": "Liens rapides",
+		"links": {
+			"about": "À propos",
+			"blog": "Blog",
+			"contact": "Contact",
+			"faq": "FAQ"
+		},
+		"followUs": "Suivez-nous",
+		"social": {
+			"facebook": "Facebook",
+			"twitter": "Twitter",
+			"instagram": "Instagram",
+			"linkedin": "LinkedIn"
+		},
+		"copyright": "© {{year}} ISSGEO. Tous droits réservés."
+	},
+	"them": {
+		"all": "Tous"
+	},
+	"services": {
+		"formation": {
+			"title": "Formations professionnelles certifiantes",
+			"desc": "Boostez votre carrière avec nos modules de formation professionnelle de pointe. Chaque parcours est conçu par des experts et mène à une certification reconnue, garantissant l’acquisition de compétences recherchées. Investissez dans votre avenir, validez votre expertise.",
+			"page": {
+				"hero": {
+					"title": "Devenez un expert certifié : nos programmes transformants",
+					"desc": "Accélérez votre trajectoire professionnelle avec des programmes intensifs et reconnus, axés sur les compétences pratiques. Votre avenir commence par la bonne certification."
+				},
+				"sectionTitle": "Les atouts clés de nos programmes",
+				"introText": "Nous ne faisons pas que former : nous professionnalisons. Voici ce que vous gagnez avec nous :",
+				"advantages": {
+					"certifTitle": "Certification reconnue",
+					"certifDesc": "Obtenez un diplôme ou un certificat qui ouvre des portes et valide officiellement votre expertise auprès d’employeurs nationaux et internationaux.",
+					"careerTitle": "Progression de carrière rapide",
+					"careerDesc": "Nos modules sont alignés sur les besoins réels du marché pour que vos nouvelles compétences conduisent directement à une promotion ou à un nouveau poste.",
+					"expertTitle": "Formateurs experts",
+					"expertDesc": "Apprenez auprès de professionnels du secteur, bénéficiez de leur expérience terrain et recevez des conseils personnalisés tout au long de votre parcours."
+				},
+				"extended_information": {
+					"academic_hub": {
+						"title": "Le Hub Académique",
+						"subtitle": "Un environnement d’apprentissage enrichi et structuré.",
+						"description": "Accédez à une plateforme complète avec des ressources pédagogiques de pointe, des cours interactifs en direct ou enregistrés et un suivi personnalisé. Notre Hub est le centre névralgique de votre réussite, conçu pour s’adapter à votre rythme et maximiser l’acquisition de compétences."
+					},
+					"get_your_target": {
+						"title": "Atteignez vos objectifs de carrière",
+						"subtitle": "Se former avec une vision claire de l’emploi.",
+						"description": "Chaque module est directement aligné sur les exigences du marché du travail. Nous vous aidons à identifier précisément les compétences nécessaires pour décrocher le poste visé, afin que votre investissement se traduise en progrès concrets."
+					},
+					"grow_your_idea": {
+						"title": "Cultivez votre potentiel d’innovation",
+						"subtitle": "Du concept à la concrétisation, nous vous guidons.",
+						"description": "Au-delà de la théorie, nous encourageons la pratique et l’esprit entrepreneurial. Nos ateliers et projets collaboratifs vous aident à transformer vos idées en solutions réelles ou en projets viables, pour devenir un acteur du changement."
+					}
+				},
+				"cta": "Parcourir nos modules"
+			}
+		},
+		"recruitment": {
+			"title": "Recrutement de talents certifiés",
+			"desc": "Trouvez le professionnel idéal pour vos équipes. Nous recommandons activement nos diplômés certifiés et hautement qualifiés aux entreprises recherchant des experts immédiatement opérationnels. Un vivier vérifié, un recrutement simplifié.",
+			"page": {
+				"hero": {
+					"title": "Recrutez l’excellence : talents certifiés, sans risque",
+					"desc": "Cessez de perdre du temps en recherches interminables. Accédez directement à un vivier de professionnels dont les compétences ont été rigoureusement validées par nos certifications."
+				},
+				"sectionTitle": "Notre processus de recommandation simplifié",
+				"introText": "Nous faisons le lien entre nos meilleurs diplômés et vos besoins spécifiques. Voici comment nous vous aidons à recruter plus intelligemment :",
+				"steps": {
+					"searchTitle": "Analyse du besoin",
+					"searchDesc": "Nous définissons précisément les compétences techniques et comportementales requises pour le poste à pourvoir.",
+					"certifTitle": "Sélection de profils certifiés",
+					"certifDesc": "Nous identifions les apprenants ayant obtenu les meilleurs résultats et les certifications pertinentes pour votre secteur.",
+					"matchTitle": "Appariement personnalisé",
+					"matchDesc": "Vous rencontrez directement les candidats recommandés, déjà validés et opérationnels."
+				},
+				"cta": "Démarrer un recrutement"
+			}
+		},
+		"placement": {
+			"title": "Placement en stage qualifié",
+			"desc": "Accueillez l’énergie et les connaissances fraîches de la nouvelle génération. Nous mettons en relation nos étudiants avec des entreprises pour des stages pertinents. L’occasion idéale d’évaluer de futurs collaborateurs et de contribuer à leur développement professionnel.",
+			"page": {
+				"hero": {
+					"title": "Des stages utiles : intégrez de nouveaux talents dès aujourd’hui",
+					"desc": "Ouvrez les portes de votre entreprise à des étudiants motivés, formés aux pratiques les plus récentes. Une relation gagnant-gagnant."
+				},
+				"sectionTitle": "Pourquoi accueillir nos stagiaires ?",
+				"introText": "Le placement en stage est une opportunité d’innover et de préparer l’avenir de votre entreprise. Voici les bénéfices immédiats :",
+				"benefits": {
+					"exposureTitle": "Pré-recrutement évaluatif",
+					"exposureDesc": "Utilisez le stage comme une période d’évaluation prolongée. Si le profil vous convient, recrutez sans surprise à l’issue.",
+					"innovationTitle": "Injection d’idées nouvelles",
+					"innovationDesc": "Nos étudiants sont formés aux technologies et méthodes récentes, apportant un regard neuf et des solutions innovantes."
+				},
+				"note": "Nous vous accompagnons dans la définition des missions et le suivi du stagiaire pour garantir une expérience positive et productive des deux côtés.",
+				"cta": "Soumettre une offre de stage"
+			}
+		}
+	},
+	"navBadge": {
+		"services": "Nos services",
+		"missions": "Nos missions",
+		"contact": "Nous contacter",
+		"testimonials": "Témoignages",
+		"team": "Équipe"
+	},
+	"pages": {
+		"home": {
+			"title": "VOUS POUVEZ AUSSI OBTENIR UNE CERTIFICATION DÈS AUJOURD’HUI",
+			"description": "Notre institut propose une gamme de formations professionnelles vous permettant d’obtenir les certifications nécessaires pour démarrer votre carrière.",
+			"ctas": {
+				"explore": "Explorer les cours",
+				"contact": "Nous contacter"
+			},
+			"form": {
+				"name": {
+					"label": "Votre nom",
+					"placeholder": "Nom"
+				},
+				"email": {
+					"label": "Votre email",
+					"placeholder": "Email"
+				},
+				"phone": {
+					"label": "Votre téléphone",
+					"placeholder": "Téléphone"
+				},
+				"formation": {
+					"label": "Choisissez une formation",
+					"placeholder": "Sélectionnez une formation"
+				},
+				"disposability": {
+					"label": "Choisissez une date",
+					"placeholder": "Quelle est votre disponibilité ?"
+				},
+				"submit": "Réserver une place maintenant"
+			}
+		},
+		"trainingDetail": {
+			"outcomesTitle": "Ce que vous allez apprendre",
+			"master": "Formateur",
+			"modulesTitle": "Modules du cours",
+			"details": "Détails du cours",
+			"duration": "Durée totale",
+			"cost": "Frais de formation",
+			"enrollCta": "S'inscrire à cette formation",
+			"form": {
+				"errors": {
+					"name": "Veuillez fournir une information valide.",
+					"contact": "Veuillez fournir un email ou un numéro valide.",
+					"modules": "Veuillez sélectionner au moins un module."
+				},
+				"modules": {
+					"title": "Modules",
+					"placeholder": "Choisissez un ou plusieurs modules"
+				},
+				"name": {
+					"title": "Nom complet",
+					"placeholder": "Ex: John Doe"
+				},
+				"contact": {
+					"title": "Contact",
+					"placeholder": "Email ou numéro de téléphone"
+				},
+				"profession": {
+					"title": "Profession",
+					"placeholder": "Ex: Développeur"
+				},
+				"country": {
+					"title": "Pays",
+					"placeholder": "Ex: Burkina Faso"
+				},
+				"schoolLevel": {
+					"title": "Niveau d'études",
+					"placeholder": "Ex: Licence"
+				},
+				"experience": {
+					"title": "Expérience",
+					"placeholder": "Ex: 3 ans dans l'IoT"
+				}
+			},
+			"toast": {
+				"success": {
+					"title": "Informations envoyées !",
+					"description": "Merci. Nous examinerons vos données et vous contacterons bientôt."
+				},
+				"error": {
+					"title": "Échec de l'envoi",
+					"description": "Vos informations n'ont pas pu être envoyées. Veuillez réessayer plus tard."
+				}
+			}
+		},
+		"formations": {
+			"title": "Programmes de formation",
+			"desc": "Découvrez nos programmes de formation disponibles.",
+			"searchPlaceholder": "Rechercher une formation",
+			"filterTitle": "Filtrer par thématique",
+			"noResults": "Aucune formation trouvée.",
+			"modules": "Modules",
+			"duration": "Durée",
+			"priceRange": "Fourchette de prix",
+			"participants": "Participants",
+			"enrolled": "Inscrits",
+			"keyCompetencies": "Compétences clés",
+			"viewDetails": "Voir les détails"
+		},
+		"calendar": {
+			"title": "Sessions de formation",
+			"desc": "Découvrez les prochaines sessions de formation.",
+			"nextSessions": "Prochaines sessions",
+			"startDate": "Date de début",
+			"location": "Lieu",
+			"viewSession": "Voir la session",
+			"noSessionComing": "Aucune session à venir."
+		},
+		"modules": {
+			"title": "Compétences essentielles",
+			"desc": "Découvrez les compétences clés abordées dans cette formation.",
+			"keySectors": "Secteurs clés",
+			"advantages": "Avantages"
+		},
+		"rolling": {
+			"profession": "Profession",
+			"schoolLevel": "Niveau d'études",
+			"experience": "Expérience",
+			"module": "Modules",
+			"duration": "Durée",
+			"priceMin": "Prix minimum",
+			"priceMax": "Prix maximum",
+			"participants": "Participants",
+			"filter": "Filtrer par modules",
+			"noModule": "Aucun module ne correspond à votre filtre."
+		}
+	},
+	"nav": {
+		"services": {
+			"id": "Services",
+			"titleCard": {
+				"title": "Cours et certifications",
+				"description": "Découvrez notre offre de cours et de certifications pour développer vos compétences et avancer dans votre carrière."
+			},
+			"courses": {
+				"title": "Cours",
+				"description": "Réservez votre place et commencez à apprendre avec nos cours spécialisés."
+			},
+			"calendar": {
+				"title": "Calendrier",
+				"description": "Consultez notre calendrier pour connaître les prochains cours, événements et ateliers."
+			},
+			"competences": {
+				"title": "Compétences",
+				"description": "Découvrez les compétences certifiées très demandées que vous maîtriserez, les secteurs où elles sont recherchées et les avantages carrière qu’elles offrent."
+			}
+		},
+		"about": {
+			"id": "À propos",
+			"partners": {
+				"title": "Nos partenaires",
+				"description": "Découvrez les partenaires et organisations qui soutiennent notre mission."
+			},
+			"ourMissions": {
+				"title": "Nos missions",
+				"description": "Apprenez-en plus sur nos objectifs, nos valeurs et ce qui nous anime."
+			},
+			"aboutOrganization": {
+				"title": "À propos de notre organisation",
+				"description": "Découvrez notre histoire et les raisons de notre engagement."
+			},
+			"testimonials": {
+				"title": "Témoignages",
+				"description": "Lisez ce que disent les étudiants et partenaires de leur expérience avec nous."
+			}
+		},
+		"team": {
+			"id": "Équipe",
+			"team": {
+				"title": "Notre équipe",
+				"description": "Faites connaissance avec celles et ceux qui rendent tout cela possible."
+			},
+			"join": {
+				"title": "Nous rejoindre",
+				"description": "Envie de nous rejoindre ? Découvrez les opportunités et devenez membre de l’équipe."
+			}
+		},
+		"home": {
+			"id": "Accueil"
+		},
+		"cta": {
+			"reservation": "Réserver",
+			"getStarted": "Commencer"
+		}
+	},
+	"sidebar": {
+		"home": "Accueil",
+		"inbox": "Boîte de réception",
+		"formations": "Cours",
+		"calendar": "Calendrier",
+		"search": "Recherche",
+		"settings": "Paramètres",
+		"contact": "Contact",
+		"job": "Emploi",
+		"users": "Utilisateurs",
+		"testimonials": "Témoignages",
+		"master": "Formateur"
+	},
+	"missions": {
+		"sectionTitle": "Nos missions : façonner l’avenir du territoire",
+		"pillar_1": {
+			"title": "Former les experts de l’aménagement urbain",
+			"subtitle": "Formation d’excellence des cadres techniques et scientifiques.",
+			"description": "Nous formons des cadres techniques et scientifiques de haut niveau, capables de concevoir, mettre en œuvre et piloter des projets complexes en urbanisme, aménagement, mobilité, gestion foncière et immobilière, et développement durable. Devenez un acteur clé de l’évolution des territoires.",
+			"cta": "Découvrir nos programmes"
+		},
+		"pillar_2": {
+			"title": "Expertise et solutions innovantes pour les acteurs",
+			"subtitle": "Accompagnement ciblé des collectivités et entreprises.",
+			"description": "Nous accompagnons les collectivités, acteurs publics et privés avec des services d’expertise et des solutions innovantes. Notre champ couvre l’urbanisme, l’ingénierie territoriale, l’environnement et la mobilité, pour des projets plus efficaces et durables.",
+			"cta": "Contacter notre cellule d’expertise"
+		},
+		"pillar_3": {
+			"title": "Production de données géospatiales fiables",
+			"subtitle": "Connaissance et données pour une planification éclairée.",
+			"description": "L’ISSG s’engage à produire et diffuser des connaissances et données géospatiales fiables. Ces informations sont essentielles pour une planification rigoureuse, une prévention proactive des risques naturels et une meilleure adaptation au changement climatique.",
+			"cta": "Accéder aux données et publications"
+		},
+		"pillar_4": {
+			"title": "Contribuer au développement territorial durable",
+			"subtitle": "Recherche appliquée et appui technique pour l’inclusion.",
+			"description": "Nous contribuons activement à un développement territorial inclusif et durable grâce à la formation continue, la recherche appliquée pertinente et l’appui technique de terrain. Nous agissons pour un impact social et environnemental positif à long terme.",
+			"cta": "Voir nos projets de recherche"
+		}
+	},
+	"contact": {
+		"title": "Contactez-nous",
+		"description": "Nous serions ravis d’échanger ! Questions sur nos services, besoin d’aide ou envie de nous faire un retour ? Notre équipe est là pour vous. Remplissez le formulaire et nous reviendrons vers vous au plus vite.",
+		"contact_info": "Informations de contact",
+		"form": {
+			"name": {
+				"label": "Nom",
+				"placeholder": "Nom"
+			},
+			"email": {
+				"label": "Email",
+				"placeholder": "Email"
+			},
+			"message": {
+				"label": "Message",
+				"placeholder": "Message"
+			},
+			"submit": "Envoyer"
+		},
+		"toast": {
+			"success": {
+				"title": "Votre message a été envoyé !",
+				"message": "Merci pour votre message, nous vous recontacterons après examen."
+			},
+			"error": {
+				"title": "Un problème est survenu !",
+				"message": "Nous rencontrons des difficultés pour soumettre votre message pour le moment."
+			}
+		}
+	},
+	"team": {
+		"sectionTitle": "Rencontrez l’équipe qui fait notre réussite",
+		"sectionDescription": "Notre équipe est composée de professionnels engagés, déterminés à offrir l’excellence et l’innovation dans tout ce que nous entreprenons.",
+		"groupTitle": "Rejoindre notre équipe"
+	},
+	"testimonials": {
+		"sectionTitle": "Ce que disent nos clients",
+		"sectionDescription": "Plus de +{{testimonialsLength}} clients utilisent nos services — vous pouvez en faire partie dès maintenant",
+		"cta": "Donnez-nous votre avis",
+		"form": {
+			"title": "Donnez-nous votre avis",
+			"description": "Dites-nous ce que vous pensez de nos services",
+			"name": "Nom",
+			"message": "Message",
+			"appreciation": {
+				"label": "Donnez-nous votre appréciation",
+				"fields": {
+					"0": "Moyen",
+					"1": "Bon",
+					"2": "Très bon"
+				}
+			},
+			"cancel": "Annuler",
+			"send": "Envoyer"
+		},
+		"toast": {
+			"success": {
+				"title": "Votre message a été envoyé !",
+				"message": "Merci pour votre retour"
+			},
+			"error": {
+				"title": "Un problème est survenu !",
+				"message": "Nous rencontrons des difficultés pour soumettre votre message pour le moment."
+			}
+		}
+	},
+	"about": {
+		"hero": {
+			"title": "Façonner l’avenir géographique",
+			"description": "Découvrez l’Institut Supérieur des Sciences Géographiques, notre vision, nos valeurs et notre engagement pour un développement territorial durable et innovant."
+		},
+		"values": {
+			"sectionTitle": "Nos valeurs fondamentales",
+			"intro": "L’ISSG est guidé par un socle de valeurs fortes qui inspirent chacune de nos actions et engagements :",
+			"excellence": {
+				"title": "Excellence académique et professionnelle",
+				"description": "Garantir des formations de haute qualité, adaptées aux standards internationaux et aux besoins des territoires, pour former des professionnels d’élite."
+			},
+			"innovation": {
+				"title": "Innovation et modernité technologique",
+				"description": "Promouvoir l’usage des SIG, drones, technologies numériques et méthodes avancées dans la planification et la gestion territoriales."
+			},
+			"ethics": {
+				"title": "Éthique et intégrité rigoureuses",
+				"description": "Assurer une transparence totale et un professionnalisme irréprochable dans la production, l’analyse et l’utilisation de nos données géospatiales."
+			},
+			"sustainability": {
+				"title": "Engagement pour le développement durable",
+				"description": "Intégrer de manière systématique et transversale les dimensions environnementales, sociales et économiques dans tous nos projets."
+			},
+			"collaboration": {
+				"title": "Collaboration stratégique et ouverture",
+				"description": "Renforcer activement nos partenariats avec les collectivités, institutions nationales, bailleurs et secteur privé pour un impact maximisé."
+			}
+		},
+		"mainActivity": {
+			"sectionTitle": "Notre cœur d’activité : formation, recherche, expertise",
+			"intro": "L’Institut Supérieur des Sciences Géographiques (ISSG) est un pilier des sciences géographiques, de l’urbanisme et du développement durable. Nous œuvrons pour :",
+			"mission1": {
+				"title": "Former des cadres qualifiés",
+				"description": "Former des professionnels capables de concevoir, gérer et évaluer des projets complexes liés à la gestion territoriale, à l’ingénierie foncière et à la protection de l’environnement."
+			},
+			"mission2": {
+				"title": "Produire et diffuser la connaissance géospatiale",
+				"description": "Produire et diffuser des données fiables et des connaissances essentielles pour une planification urbaine stratégique et un développement local éclairé."
+			},
+			"mission3": {
+				"title": "Appui-conseil et accompagnement d’expertise",
+				"description": "Accompagner les acteurs publics, privés et internationaux avec des services d’étude, d’expertise et de conseil sur mesure."
+			},
+			"conclusion": "Au travers de ces missions, l’ISSG contribue à la modernisation de la gestion urbaine et territoriale, au renforcement des capacités des acteurs locaux et à la promotion d’un développement équilibré et durable pour tous."
+		},
+		"socials": {
+			"followUs": "Suivez-nous sur les réseaux :",
+			"facebook": "Facebook",
+			"instagram": "Instagram"
+		}
+	},
+	"faq": {
+		"sectionTitle": "Foire aux questions",
+		"sectionDescription": "Trouvez des réponses rapides aux questions les plus fréquentes sur nos formations, services et l’institut.",
+		"q1": {
+			"question": "Quelles certifications l’ISSG délivre-t-il ?",
+			"answer": "Nous délivrons des certifications professionnelles reconnues, conformes aux standards internationaux dans les domaines de l’urbanisme, de la gestion foncière et du management de projet. Elles attestent l’acquisition de compétences précises et recherchées."
+		},
+		"q2": {
+			"question": "Puis-je suivre des formations à distance ?",
+			"answer": "Oui, plusieurs de nos modules sont disponibles en ligne (visioconférence ou e-learning) pour une flexibilité maximale, notamment pour les professionnels. Consultez le calendrier pour les sessions en ligne."
+		},
+		"q3": {
+			"question": "Comment fonctionne le service de recrutement pour mon entreprise ?",
+			"answer": "Nous mettons votre société en relation avec nos meilleurs diplômés certifiés. Après analyse de vos besoins, nous recommandons des profils dont les compétences ont été rigoureusement validées, simplifiant ainsi votre processus d’embauche."
+		},
+		"q4": {
+			"question": "Quelle différence entre « Recrutement » et « Placement » ?",
+			"answer": "Le « Recrutement » concerne l’embauche de nos diplômés qualifiés en CDI/CDD. Le « Placement » concerne la mise en relation d’étudiants pour des stages d’évaluation de courte ou moyenne durée."
+		},
+		"q5": {
+			"question": "Quel est le coût moyen d’une formation ?",
+			"answer": "Le coût varie selon la durée (en heures) et la thématique. Vous pouvez consulter des fourchettes indicatives sur la page « Formations » et demander un devis personnalisé via le formulaire de contact."
+		}
+	},
+	"careers": {
+		"hero": {
+			"title": "Rejoignez l’ISSG : façonnez les territoires de demain",
+			"description": "Nous recherchons des professionnels passionnés, experts en géographie, urbanisme et technologies numériques. Si vous partagez notre exigence d’excellence et d’innovation, votre place est parmi nous."
+		},
+		"whyJoin": {
+			"title": "Pourquoi travailler à l’ISSG ?",
+			"point1": {
+				"subtitle": "Impact concret",
+				"desc": "Contribuez directement à des projets de développement territorial durable et à la formation de la prochaine génération d’experts."
+			},
+			"point2": {
+				"subtitle": "Culture de l’innovation",
+				"desc": "Travaillez avec les dernières technologies (SIG, drones, IA) dans un environnement qui encourage la recherche appliquée et la modernité."
+			},
+			"point3": {
+				"subtitle": "Évolution et flexibilité",
+				"desc": "Bénéficiez de formations continues, d’un cadre de travail collaboratif et d’une flexibilité adaptée à votre équilibre de vie."
+			}
+		},
+		"positions": {
+			"sectionTitle": "Offres en cours",
+			"noOffers": "Nous n’avons pas d’offres d’emploi ouvertes pour le moment. Nous vous invitons à déposer une candidature spontanée.",
+			"cta": "Voir le détail du poste"
+		},
+		"spontaneous": {
+			"title": "Candidature spontanée",
+			"desc": "Vous ne trouvez pas l’offre idéale ? Envoyez-nous votre CV et votre lettre de motivation. Nous recherchons en permanence des talents d’exception dans nos domaines d’expertise.",
+			"cta": "Déposer ma candidature spontanée"
+		}
+	},
+	"admin": {
+		"master": {
+			"id": "Master",
+			"form": {
+				"create": {
+					"title": "Créer un nouveau Formateur",
+					"description": "Remplissez les informations pour créer un nouveau Formateur"
+				},
+				"update": {
+					"title": "Mettre à jour le Formateur",
+					"description": "Mettre à jour les informations du Formateur"
+				},
+				"name": "Veuillez entrer une information valide pour ce champ.",
+				"description": "Veuillez entrer une information valide pour ce champ.",
+				"image": "Veuillez entrer une information valide pour ce champ.",
+				"socials": {
+					"facebook": "Facebook",
+					"twitter": "Twitter",
+					"instagram": "Instagram",
+					"linkedin": "LinkedIn"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Formateur créé avec succès",
+						"description": "Le Master a été créé avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Formateur mis à jour avec succès",
+						"description": "Le Master a été mis à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Formateur supprimé avec succès",
+						"description": "Le Formateur a été supprimé avec succès",
+						"titleMultiple": "Formateurs supprimés avec succès",
+						"descriptionMultiple": "Les Formateurs sélectionnés ont été supprimés avec succès"
+					}
+				}
+			}
+		},
+		"profile": {
+			"generalInformation": "Informations générales",
+			"security": "Sécurité",
+			"previousPassword": "Ancien mot de passe",
+			"newPassword": "Nouveau mot de passe",
+			"updatePassword": "Mettre à jour le mot de passe",
+			"description": "Gérez votre profil public et vos paramètres privés.",
+			"form": {
+				"name": "Nom",
+				"email": "Email"
+			},
+			"toast": {
+				"updateProfile": {
+					"success": "Profil mis à jour avec succès"
+				},
+				"updatePassword": {
+					"success": "Mot de passe mis à jour avec succès"
+				}
+			}
+		},
+		"users": {
+			"id": "Utilisateurs",
+			"description": "Parcourez les derniers statistiques de vos utilisateurs récents",
+			"form": {
+				"create": {
+					"title": "Créer un nouvel utilisateur",
+					"description": "Renseignez vos informations pour ajouter la nouvelle entité"
+				},
+				"update": {
+					"title": "Mettre à jour l’utilisateur",
+					"description": "Modifiez le(s) champ(s) souhaité(s) puis soumettez"
+				},
+				"roles": {
+					"user": "Utilisateur",
+					"maintainer": "Mainteneur"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Utilisateur créé avec succès !",
+						"description": "Un nouvel utilisateur a été ajouté à votre base de données"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Utilisateur mis à jour avec succès !",
+						"description": "L’utilisateur a été mis à jour"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Utilisateur supprimé avec succès !",
+						"titleMultiple": "Utilisateurs supprimés avec succès !",
+						"descriptionMultiple": "Les utilisateurs ont été supprimés de la base de données",
+						"description": "L’utilisateur a été supprimé de la base de données"
+					}
+				}
+			}
+		},
+		"login": {
+			"welcome": "Bienvenue",
+			"description": "Renseignez vos informations de connexion",
+			"input": {
+				"login": {
+					"label": "Email",
+					"placeholder": "Email"
+				},
+				"password": {
+					"label": "Mot de passe",
+					"placeholder": "Mot de passe"
+				},
+				"submit": "Soumettre"
+			}
+		},
+		"job": {
+			"id": "Emplois",
+			"form": {
+				"create": {
+					"title": "Créer une nouvelle offre",
+					"description": "Renseignez vos informations pour ajouter la nouvelle entité"
+				},
+				"update": {
+					"title": "Mettre à jour l’offre",
+					"description": "Modifiez le(s) champ(s) souhaité(s) puis soumettez"
+				},
+				"errors": {
+					"title": "Le titre doit contenir au moins deux lettres",
+					"location": "La localisation doit contenir au moins deux lettres"
+				},
+				"label": {
+					"location": "Localisation",
+					"contract": "Contrat"
+				},
+				"description": {
+					"title": "Le titre de votre offre",
+					"location": "La localisation de l’offre",
+					"contract": "Le type de contrat proposé"
+				},
+				"contracts": {
+					"CDD": "Contrat à durée déterminée",
+					"CDI": "Contrat à durée indéterminée",
+					"Freelance": "Indépendant",
+					"Stage": "Stage"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Offre créée avec succès !",
+						"description": "Une nouvelle offre a été ajoutée à votre base de données"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Offre mise à jour avec succès !",
+						"description": "L’offre a été mise à jour"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Offre supprimée avec succès !",
+						"titleMultiple": "Offres supprimées avec succès !",
+						"descriptionMultiple": "Les offres ont été supprimées de la base de données",
+						"description": "L’offre a été supprimée de la base de données"
+					}
+				}
+			}
+		},
+		"formations": {
+			"id": "Formations",
+			"description": "Parcourez les derniers statistiques de vos formations récentes",
+			"form": {
+				"step1": {
+					"title": "Informations de base",
+					"title_label": "Titre de la formation",
+					"title_placeholder": "ex. : Cours React avancé",
+					"description_label": "Description",
+					"description_placeholder": "Décrivez la formation…",
+					"duration_label": "Durée (heures)",
+					"duration_placeholder": "40"
+				},
+				"step2": {
+					"title": "Formateur et thématique",
+					"min_price_label": "Prix minimum (FCFA)",
+					"min_price_placeholder": "50000",
+					"max_price_label": "Prix maximum (FCFA)",
+					"max_price_placeholder": "100000",
+					"master_label": "Formateur",
+					"master_placeholder": "Selectionner un formateur",
+					"thematic_label": "Thématique",
+					"thematic_placeholder": "Sélectionnez une thématique",
+					"new_thematic": "Nouvelle thématique",
+					"create_thematic": {
+						"title_label": "Nom de la thématique",
+						"title_placeholder": "ex. : Intelligence artificielle",
+						"icon_label": "Icône",
+						"submit": "Ajouter la thématique"
+					}
+				},
+				"step3": {
+					"title": "Public cible et contenu",
+					"target_label": "Public cible",
+					"target_placeholder": "ex. : Développeurs, Designers, Étudiants…",
+					"objectives_label": "Objectifs d’apprentissage",
+					"objectives_placeholder": "Ajouter un objectif d’apprentissage",
+					"modules_label": "Modules du programme",
+					"modules_placeholder": "Ajouter un module"
+				},
+				"step4": {
+					"title": "Compétences clés",
+					"add_competency": "Ajouter une compétence",
+					"competency_title_label": "Titre de la compétence",
+					"competency_title_placeholder": "ex. : Développement Full-Stack",
+					"competency_description_label": "Description",
+					"competency_description_placeholder": "Décrivez la compétence…",
+					"competency_icon_label": "Icône",
+					"competency_sectors_label": "Secteurs",
+					"competency_sectors_placeholder": "Ajouter un secteur",
+					"competency_advantages_label": "Avantages",
+					"competency_advantages_placeholder": "Ajouter un avantage",
+					"key_competency_placeholder": "Selectionner des compétences clées",
+					"select_existing_placeholder": "Selectionner une compétence existante",
+					"add_button": "Ajouter",
+					"cancel_button": "Annuler"
+				},
+				"step5": {
+					"title": "Modules",
+					"module_meta": "Dure {{duration}}H pour {{price}}FCFA",
+					"edit": "Editer",
+					"add_module": "Ajouter module",
+					"module_title_label": "Titre",
+					"module_price_label": "Prix",
+					"module_duration_label": "Durée",
+					"select_existing_placeholder": "Selectionner un module existant",
+					"save_button": "Sauvegarder",
+					"cancel_button": "Annuler"
+				},
+				"icons": {
+					"selection_label": "Sélectionnez une icône",
+					"search_icons_label": "Rechercher une icône…"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Cours créé avec succès!",
+						"description": "Vous avez un nouveau cours dans votre base de données"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Cours mis à jour avec succès!",
+						"description": "Le cours a été mis à jour"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Cours supprimé avec succès!",
+						"titleMultiple": "Cours supprimés avec succès!",
+						"descriptionMultiple": "Les cours ont été supprimés",
+						"description": "Le cours a été supprimé"
+					}
+				}
+			}
+		},
+		"session": {
+			"id": "Calendrier De Formations",
+			"description": "Parcourez les derniers statistiques de vos sessions récentes",
+			"form": {
+				"create": {
+					"title": "Créez un nouveau calendrier",
+					"description": "Remplissez vos informations pour ajouter votre donnée"
+				},
+				"update": {
+					"title": "Mettre a jour un calendrier",
+					"description": "Mettez a jour les données que souhaiter et soumettez les"
+				},
+				"errors": {},
+				"label": {
+					"startDate": "Date de début",
+					"moduleId": "Module de formation"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Calendrier créée avec succès !",
+						"description": "Un nouveau Calendrier a été ajoutée à votre base de données"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Calendrier mise à jour avec succès !",
+						"description": "Le calendrier a été mise à jour"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Calendrier supprimée avec succès !",
+						"titleMultiple": "Calendriers supprimées avec succès !",
+						"descriptionMultiple": "Les calendriers ont été supprimées de la base de données",
+						"description": "Le calendrier a été supprimée de la base de données"
+					}
+				}
+			}
+		},
+		"testimonials": {
+			"id": "Témoignages",
+			"description": "Parcourez les derniers statistiques de vos témoignages récents",
+			"form": {
+				"create": {
+					"title": "Créer un nouveau Témoignage",
+					"description": "Remplissez les informations pour créer un nouveau Témoignage"
+				},
+				"update": {
+					"title": "Mettre à jour le Témoignage",
+					"description": "Mettre à jour les informations du Témoignage"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Témoignage créé avec succès",
+						"description": "Le Témoignage a été créé avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Témoignage mis à jour avec succès",
+						"description": "Le Témoignage a été mis à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Témoignage supprimé avec succès",
+						"description": "Le Témoignage a été supprimé avec succès",
+						"titleMultiple": "Témoignages supprimés avec succès",
+						"descriptionMultiple": "Les Témoignages sélectionnés ont été supprimés avec succès"
+					}
+				}
+			}
+		},
+		"contact": {
+			"id": "Contact",
+			"description": "Parcourez les derniers statistiques de vos contacts récents",
+			"form": {
+				"create": {
+					"title": "Créer un nouveau Contact",
+					"description": "Remplissez les informations pour créer un nouveau Contact"
+				},
+				"update": {
+					"title": "Mettre à jour le Contact",
+					"description": "Mettre à jour les informations du Contact"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Contact créé avec succès",
+						"description": "Le Contact a été créé avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Contact mis à jour avec succès",
+						"description": "Le Contact a été mis à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Contact supprimé avec succès",
+						"description": "Le Contact a été supprimé avec succès",
+						"titleMultiple": "Contacts supprimés avec succès",
+						"descriptionMultiple": "Les Contacts sélectionnés ont été supprimés avec succès"
+					}
+				}
+			}
+		},
+		"rolling": {
+			"id": "Candidature",
+			"description": "Rejoignez l'équipe",
+			"form": {
+				"create": {
+					"title": "Créer une nouvelle Candidature",
+					"description": "Remplissez les informations pour créer une nouvelle Candidature"
+				},
+				"update": {
+					"title": "Mettre à jour la Candidature",
+					"description": "Mettre à jour les informations de la Candidature"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Candidature créée avec succès",
+						"description": "La Candidature a été créée avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Candidature mise à jour avec succès",
+						"description": "La Candidature a été mise à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Candidature supprimée avec succès",
+						"description": "La Candidature a été supprimée avec succès",
+						"titleMultiple": "Candidatures supprimées avec succès",
+						"descriptionMultiple": "Les Candidatures sélectionnées ont été supprimées avec succès"
+					}
+				}
+			}
+		},
+		"key_competency": {
+			"id": "Compétences clées",
+			"form": {
+				"create": {
+					"title": "Créer une nouvelle Compétence clé",
+					"description": "Remplissez les informations pour créer une nouvelle Compétence clé"
+				},
+				"update": {
+					"title": "Mettre à jour la Compétence clé",
+					"description": "Mettre à jour les informations de la Compétence clé"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Compétence clé créée avec succès",
+						"description": "La Compétence clé a été créée avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Compétence clé mise à jour avec succès",
+						"description": "La Compétence clé a été mise à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Compétence clé supprimée avec succès",
+						"description": "La Compétence clé a été supprimée avec succès",
+						"titleMultiple": "Compétences clés supprimées avec succès",
+						"descriptionMultiple": "Les Compétences clés sélectionnées ont été supprimées avec succès"
+					}
+				}
+			}
+		},
+		"thematic": {
+			"id": "Thématique",
+			"form": {
+				"create": {
+					"title": "Créer une nouvelle Thématique",
+					"description": "Remplissez les informations pour créer une nouvelle Thématique"
+				},
+				"update": {
+					"title": "Mettre à jour la Thématique",
+					"description": "Mettre à jour les informations de la Thématique"
+				}
+			},
+			"toast": {
+				"create": {
+					"success": {
+						"title": "Thématique créée avec succès",
+						"description": "La Thématique a été créée avec succès"
+					}
+				},
+				"update": {
+					"success": {
+						"title": "Thématique mise à jour avec succès",
+						"description": "La Thématique a été mise à jour avec succès"
+					}
+				},
+				"delete": {
+					"success": {
+						"title": "Thématique supprimée avec succès",
+						"description": "La Thématique a été supprimée avec succès",
+						"titleMultiple": "Thématiques supprimées avec succès",
+						"descriptionMultiple": "Les Thématiques sélectionnées ont été supprimées avec succès"
+					}
+				}
+			}
+		}
+	}
+}

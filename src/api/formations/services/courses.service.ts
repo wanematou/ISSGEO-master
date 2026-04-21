@@ -1,0 +1,234 @@
+import { BaseService } from "@/core/base.service";
+import type {
+	KeyCompetencyTableType,
+	MasterTableType,
+	ModuleTableType,
+	ThematicTableType,
+	TrainingTableType,
+} from "@/db";
+import { CreateCourseDTO, UpdateCourseDTO } from "../DTO/courses.dto";
+import { CoursesRepository } from "../repository/courses.repository";
+import type { Context } from "hono";
+import { Service, ValidateDTO } from "@/core/decorators";
+import {
+	CreateKeyCompetencyDTO,
+	UpdateKeyCompetencyDTO,
+} from "../DTO/keyCompetency.dto";
+import type {
+	PaginatedResponse,
+	PaginationQuery,
+} from "@/lib/interfaces/pagination";
+import { CreateModuleTDO, UpdateModuleDTO } from "../DTO/modules.dto";
+
+@Service()
+export class CourseService extends BaseService<
+	TrainingTableType,
+	CreateCourseDTO,
+	UpdateCourseDTO,
+	CoursesRepository,
+	TrainingTableType & {
+		modules?: ModuleTableType[];
+		competencies?: KeyCompetencyTableType[];
+		thematic?: ThematicTableType;
+		master?: MasterTableType;
+	}
+> {
+	constructor() {
+		super(new CoursesRepository());
+	}
+
+	@ValidateDTO(CreateCourseDTO)
+	override async create(
+		dto: CreateCourseDTO,
+		context: Context,
+	): Promise<
+		TrainingTableType & {
+			modules?: ModuleTableType[];
+			competencies?: KeyCompetencyTableType[];
+			thematic?: ThematicTableType;
+			master?: MasterTableType;
+		}
+	> {
+		const moduleIds =
+			context.req
+				.query("moduleIds")
+				?.split(",")
+				.filter((id) => id.trim() !== "") ?? [];
+		const competencyIds =
+			context.req
+				.query("competencyIds")
+				?.split(",")
+				.filter((id) => id.trim() !== "") ?? [];
+
+		return this.repository.createWithRelations(dto, moduleIds, competencyIds);
+	}
+
+	@ValidateDTO(UpdateCourseDTO)
+	override async update(
+		id: string | number,
+		dto: UpdateCourseDTO,
+		_context: Context,
+	): Promise<
+		| (TrainingTableType & {
+				modules?: ModuleTableType[];
+				competencies?: KeyCompetencyTableType[];
+				thematic?: ThematicTableType;
+				master?: MasterTableType;
+		  })[]
+		| null
+	> {
+		return this.repository.update(String(id), dto);
+	}
+
+	async updateCourseCompetencies(
+		id: string,
+		context: Context,
+	): Promise<
+		TrainingTableType & {
+			competencies?: KeyCompetencyTableType[];
+		}
+	> {
+		const competencyIds =
+			context.req
+				.query("competencyIds")
+				?.split(",")
+				.filter((id) => id.trim() !== "") ?? [];
+		return this.repository.updateCourseCompetencies(id, competencyIds);
+	}
+
+	async updateCourseModules(
+		id: string,
+		context: Context,
+	): Promise<
+		TrainingTableType & {
+			modules?: ModuleTableType[];
+		}
+	> {
+		const moduleIds =
+			context.req
+				.query("moduleIds")
+				?.split(",")
+				.filter((id) => id.trim() !== "") ?? [];
+		return this.repository.updateCourseModules(id, moduleIds);
+	}
+
+	@ValidateDTO(CreateKeyCompetencyDTO)
+	async createCompetency(
+		dto: CreateKeyCompetencyDTO,
+		_context: Context,
+	): Promise<KeyCompetencyTableType> {
+		const competency = await this.repository.createCompetency(dto);
+		return competency;
+	}
+
+	@ValidateDTO(UpdateKeyCompetencyDTO)
+	async updateCompetency(
+		id: string,
+		dto: UpdateKeyCompetencyDTO,
+		_context: Context,
+	): Promise<KeyCompetencyTableType[] | null> {
+		return this.repository.updateCompetency(id, dto);
+	}
+
+	async findCompetency(id: string): Promise<KeyCompetencyTableType | null> {
+		return this.repository.findCompetency(id);
+	}
+
+	async deleteCompetency(id: string): Promise<boolean> {
+		return this.repository.deleteCompetency(id);
+	}
+
+	async deleteManyCompetency(ids: (string | number)[]): Promise<{
+		deletedCount: number;
+		requestedCount: number;
+		success: boolean;
+	}> {
+		if (ids.length === 0) {
+			return {
+				deletedCount: 0,
+				requestedCount: 0,
+				success: true,
+			};
+		}
+
+		const deletedCount = await this.repository.deleManyCompetency(ids);
+
+		return {
+			deletedCount,
+			requestedCount: ids.length,
+			success: deletedCount === ids.length,
+		};
+	}
+
+	async findPaginatedCompetency(
+		query: PaginationQuery,
+	): Promise<PaginatedResponse<KeyCompetencyTableType>> {
+		return this.repository.findPaginatedCompetency(query);
+	}
+
+	async findAllCompetency(
+		filters?: Partial<KeyCompetencyTableType>,
+	): Promise<KeyCompetencyTableType[]> {
+		return this.repository.findAllCompetency(filters);
+	}
+
+	@ValidateDTO(CreateModuleTDO)
+	async createModule(
+		dto: CreateModuleTDO,
+		_context: Context,
+	): Promise<ModuleTableType> {
+		const module = await this.repository.createModule(dto);
+		return module;
+	}
+
+	async findModule(id: string): Promise<ModuleTableType | null> {
+		return this.repository.findModule(id);
+	}
+
+	@ValidateDTO(UpdateModuleDTO)
+	async updateModule(
+		id: string,
+		dto: UpdateModuleDTO,
+		_context: Context,
+	): Promise<ModuleTableType[] | null> {
+		return this.repository.updateModule(id, dto);
+	}
+
+	async deleteModule(id: string): Promise<boolean> {
+		return this.repository.deleteModule(id);
+	}
+
+	async deleteManyModule(ids: (string | number)[]): Promise<{
+		deletedCount: number;
+		requestedCount: number;
+		success: boolean;
+	}> {
+		if (ids.length === 0) {
+			return {
+				deletedCount: 0,
+				requestedCount: 0,
+				success: true,
+			};
+		}
+
+		const deletedCount = await this.repository.deleManyModule(ids);
+
+		return {
+			deletedCount,
+			requestedCount: ids.length,
+			success: deletedCount === ids.length,
+		};
+	}
+
+	async findPaginatedModule(
+		query: PaginationQuery,
+	): Promise<PaginatedResponse<ModuleTableType>> {
+		return this.repository.findPaginatedModule(query);
+	}
+
+	async findAllModule(
+		filters?: Partial<ModuleTableType>,
+	): Promise<ModuleTableType[]> {
+		return this.repository.findAllModule(filters);
+	}
+}
