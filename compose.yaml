@@ -7,11 +7,10 @@ services:
       JWT_SECRET: your_jwt_secret_key
       ADMIN_PASSWORD: Password123.
       NODE_ENV: production
-    # ports:
-    #   - 3000:3000
-     depends_on:
+    depends_on:
       issgeo_db:
-        condition: service_healthy  # ← attend que la DB soit prête
+        condition: service_healthy
+    restart: unless-stopped
 
   issgeo_db:
     image: postgres:17
@@ -20,12 +19,10 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin1234
       POSTGRES_DB: issgeo_db
-    ports:
-      - "5455:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "doni", "-d", "doni_db"]
+      test: ["CMD", "pg_isready", "-U", "admin", "-d", "issgeo_db"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -33,6 +30,44 @@ services:
 
 volumes:
   postgres_data:
+
+
+
+# services:
+#   server:
+#     build:
+#       context: .
+#     environment:
+#       DATABASE_URL: postgres://admin:admin1234@issgeo_db:5432/issgeo_db
+#       JWT_SECRET: your_jwt_secret_key
+#       ADMIN_PASSWORD: Password123.
+#       NODE_ENV: production
+#     # ports:
+#     #   - 3000:3000
+#      depends_on:
+#       issgeo_db:
+#         condition: service_healthy  # ← attend que la DB soit prête
+
+#   issgeo_db:
+#     image: postgres:17
+#     container_name: issgeo_db
+#     environment:
+#       POSTGRES_USER: admin
+#       POSTGRES_PASSWORD: admin1234
+#       POSTGRES_DB: issgeo_db
+#     ports:
+#       - "5455:5432"
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data
+#     healthcheck:
+#       test: ["CMD", "pg_isready", "-U", "doni", "-d", "doni_db"]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+#     restart: unless-stopped
+
+# volumes:
+#   postgres_data:
 
 
 
