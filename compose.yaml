@@ -9,6 +9,9 @@ services:
       NODE_ENV: production
     # ports:
     #   - 3000:3000
+     depends_on:
+      issgeo_db:
+        condition: service_healthy  # ← attend que la DB soit prête
 
   issgeo_db:
     image: postgres:17
@@ -30,3 +33,8 @@ services:
 
 volumes:
   postgres_data:
+
+
+
+
+  
