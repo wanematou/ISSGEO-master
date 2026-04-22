@@ -11,7 +11,13 @@ services:
       issgeo_db:
         condition: service_healthy
     restart: unless-stopped
-
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.issgeo.rule=Host(`issgeo.ecodev.dev`)"
+      - "traefik.http.routers.issgeo.entrypoints=https"
+      - "traefik.http.routers.issgeo.tls=true"
+      - "traefik.http.routers.issgeo.tls.certresolver=letsencrypt"
+      - "traefik.http.services.issgeo.loadbalancer.server.port=3000"
   issgeo_db:
     image: postgres:17
     container_name: issgeo_db
