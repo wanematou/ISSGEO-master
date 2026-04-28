@@ -13,7 +13,7 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.issgeo.rule=Host(`issgeo.com`)"
+      - "traefik.http.routers.issgeo.rule=Host(`issgeo.ecodev.dev`)"
       - "traefik.http.routers.issgeo.entrypoints=https"
       - "traefik.http.routers.issgeo.tls=true"
       - "traefik.http.routers.issgeo.tls.certresolver=letsencrypt"
