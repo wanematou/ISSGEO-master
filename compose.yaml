@@ -20,7 +20,7 @@ services:
       - "traefik.http.services.issgeo.loadbalancer.server.port=3000"
   issgeo_db:
     image: postgres:17
-    container_name: issgeo_db
+    #container_name: issgeo_db
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin1234
