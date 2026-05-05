@@ -18,6 +18,10 @@ services:
       - "traefik.http.routers.issgeo.tls=true"
       - "traefik.http.routers.issgeo.tls.certresolver=letsencrypt"
       - "traefik.http.services.issgeo.loadbalancer.server.port=3000"
+      - "traefik.http.routers.issgeo-http.rule=Host(`issgeo.com`) || Host(`www.issgeo.com`)"
+      - "traefik.http.routers.issgeo-http.entrypoints=http"
+      - "traefik.http.routers.issgeo-http.middlewares=redirect-to-https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
   issgeo_db:
     image: postgres:17
     #container_name: issgeo_db
